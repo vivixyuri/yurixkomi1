@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YuriXKomi1 | Official Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        
+<div class="music-player">
+    <span>♫ NOW PLAYING</span>
+
+    <audio id="backgroundMusic" loop>
+        <source src="music/animebgmusic.mp3"type="audio/mpeg">
+    </audio>
+
+    <button onclick="toggleMusic()" id="musicButton">
+        ▶ Play Music
+    </button>
+
+    <input
+        type="range"
+        min="0"
+        max="1"
+        step="0.01"
+        value="0.4"
+        id="volumeControl"
+    >
+</div>
+
+        <h2 class="logo">Yuri<span>X</span>Komi1</h2>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#videos">Videos</a>
+            <a href="#series">Series</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <p class="tagline">WELCOME YURIKOS!💜</p>
+
+        <h1>Welcome to <span>YuriXKomi1</span></h1>
+
+        <p>
+            Gaming, edits, random moments
+            and chaos!.
+        </p>
+
+       
+<div class="social-links">
+
+    <a href="http://www.youtube.com/@YURIxKOMI1"
+       target="_blank"
+       class="button youtube">
+       ▶ Visit my YouTube
+    </a>
+
+    <a href="https://discord.gg/GF398ZHm3"
+       target="_blank"
+       class="button discord">
+       💬 Join my Discord
+    </a>
+
+</div>
+
+    </section>
+
+    <section id="about">
+        <h2>Who am I?</h2>
+        <p>
+            Welcome, Yurikos!
+            its me,yuri!
+            the owner of yurixkomi1!
+            i made this website to make it easier for people to
+            accsess my socials.this website is still in the making
+            so expext a few bugs. have fun!
+            
+            
+            
+        </p>
+    </section>
+
+    <section id="videos">
+        <h2>Latest Videos</h2>
+        <p>New videos and questionable activity exists here.</p>
+        <a href="#" class="button">Visit my YouTube</a>
+    </section>
+
+    <section id="series">
+        <h2>Crimson Chapters</h2>
+        <p>
+            A special autumn series.
+            Every chapter has another story to tell.
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 YuriXKomi1. All rights reserved.</p>
+        <p>Yuri out. Kate out. Burn out.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

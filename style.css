@@ -1,0 +1,141 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #100b1c;
+    color: white;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 8%;
+    background: #191128;
+}
+
+.logo {
+    color: #c6a4ff;
+    font-size: 25px;
+}
+
+.logo span {
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #c6a4ff;
+}
+
+.hero {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    background: radial-gradient(
+        circle at center,
+        #422467,
+        #100b1c 70%
+    );
+}
+
+.hero h1 {
+    font-size: clamp(32px, 6vw, 55px);
+    margin: 15px 0;
+}
+
+.hero h1 span {
+    color: #c6a4ff;
+}
+
+.tagline {
+    letter-spacing: 5px;
+    color: #d5baff;
+}
+
+.button {
+    display: inline-block;
+    background: #8755c9;
+    color: white;
+    padding: 12px 25px;
+    margin-top: 25px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #a77be5;
+}
+
+section:not(.hero) {
+    padding: 75px 10%;
+    text-align: center;
+}
+
+section h2 {
+    color: #c6a4ff;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background: #191128;
+    padding: 25px;
+    text-align: center;
+    color: #b9a8cc;
+}
+
+@media (max-width: 650px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 5px;
+        font-size: 14px;
+    }
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.youtube {
+    background: #ff0033;
+}
+
+.discord {
+    background: #5865F2;
+}
+
+.youtube:hover {
+    background: #cc0029;
+}
+
+.discord:hover {
+    background: #4752c4;
+}
